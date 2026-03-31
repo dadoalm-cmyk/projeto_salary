@@ -86,6 +86,9 @@ Company size is the most impactful factor in salary. The graph  shows that Enter
 
 ### Salary by Location
 
+## Salary vs Location
+![ Top 10 most frequent locations by salary](graphics/Top_location_salary_bar.png)
+
 - USA: **181,716**
 - Canada: **167,391**
 - UK: **160,075**
@@ -93,9 +96,6 @@ Company size is the most impactful factor in salary. The graph  shows that Enter
 - ...
 - Singapore: **139,341**
 - India: **139,295**
-
-## Salary vs Location
-![ Top 10 most frequent locations by salary](graphics/Top_location_salary_bar.png)
 
 
 **TOP 10 MOST FREQUENT LOCATIONS**
