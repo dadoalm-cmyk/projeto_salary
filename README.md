@@ -97,20 +97,20 @@ Company size is the most impactful factor in salary. The graph  shows that Enter
 - Singapore: **139,341**
 - India: **139,295**
 
+##  Top 10 Most Frequent Locations
 
-**TOP 10 MOST FREQUENT LOCATIONS**
-location
-Australia      25258
-Canada         25165
-Sweden         25100
-Remote         25065
-Singapore      25035
-USA            24931
-UK             24927
-India          24895
-Netherlands    24861
-Germany        24763
-
+| Rank | Location     | Frequency |
+|------|--------------|----------|
+| 1    | Australia    | 25258    |
+| 2    | Canada       | 25165    |
+| 3    | Sweden       | 25100    |
+| 4    | Remote       | 25065    |
+| 5    | Singapore    | 25035    |
+| 6    | USA          | 24931    |
+| 7    | UK           | 24927    |
+| 8    | India        | 24895    |
+| 9    | Netherlands  | 24861    |
+| 10   | Germany      | 24763    |
 
 -> Difference > **40k**
 -> **Strong impact**
@@ -122,13 +122,14 @@ The graph highlights that location is the most important factor impacting salary
 
 ###  Education vs Salary
 
+## Education vs Salary
+![Education vs Salary](graphics/Education_level_salary_box.png)
+
 - PhD: **163,976**
 - Master: **153,305**
 - Bachelor: **142,410**
 - High School: **131,715**
 
-## Education vs Salary
-![Education vs Salary](graphics/Education_level_salary_box.png)
 
 As can be seen in the boxplot graph, there is a high presence of outlines, but overall the average salary increases with the level of education. It is noted that PhD employees receive more than 269,000 reaching up to 333,000, with a similar variation for those with a Master's degree.
 
