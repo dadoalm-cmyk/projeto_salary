@@ -66,8 +66,8 @@ The dataset includes:
 
 ###  Company Size vs Salary
 
-## Salary vs Company Size
-![Salary vs Company Size](graphics/Company_size_bar.png)
+## Company Size vs Salary
+![Company Size vs Salary](graphics/Company_size_bar.png)
 
 Company size is the most impactful factor in salary. The graph  shows that Enterprise companies pay **169,616** compared to Startups **127,289**, a difference of 42k. This may be due to market experience or investments in trained teams or materials; these factors require further analysis for precise confirmation. However, large companies pay more than small companies and startups.
 
@@ -93,6 +93,10 @@ Company size is the most impactful factor in salary. The graph  shows that Enter
 - ...
 - Singapore: **139,341**
 - India: **139,295**
+
+## Salary vs Location
+![ Top 10 most frequent locations by salary](graphics/Top_location_salary_bar.png)
+
 
 **TOP 10 MOST FREQUENT LOCATIONS**
 location
@@ -123,6 +127,9 @@ The graph highlights that location is the most important factor impacting salary
 - Bachelor: **142,410**
 - High School: **131,715**
 
+## Education vs Salary
+![Education vs Salary](graphics/Education_level_salary_box.png)
+
 As can be seen in the boxplot graph, there is a high presence of outlines, but overall the average salary increases with the level of education. It is noted that PhD employees receive more than 269,000 reaching up to 333,000, with a similar variation for those with a Master's degree.
 
 -> Higher education → higher salary  
@@ -146,20 +153,30 @@ This indicates that salary variations across regions are not driven by differenc
 
 ### Experience vs Salary
 
+
+## Experience vs Salary
+![Experience vs Salary](graphics/Experience_salary_line.png)
+
 - 0 years: **118,872**
 - +9 years: **142,763**
+
 
 The line graph shows that the relationship between salary and experience is almost directly proportional, reaching a point where an increase of 5 years of experience adds 10,000 or 15,000 to the salary.
 
 -> **Strong upward trend**  
 -> Correlation: **0.44 (moderate)**
 
+## Correlation Matrix
+![Correlation Matrix ](graphics/Corr_matrix_experience_skills_certifications.png)
 
 ---
 
 ###  Skills
 
 Regarding skills, a low correlation is observed, but high in comparison with certifications, with a value of **0.13**.
+
+## Skills vs Salary
+![Number of Skills by Salary](graphics/Number_skills_salary_line.png)
 
 When we analyze the line graph of the relationship with salary, a somewhat linear relationship is noted, with a small but noteworthy impact.
 
@@ -170,6 +187,10 @@ When we analyze the line graph of the relationship with salary, a somewhat linea
 
 ---
 ### Remote Work
+
+
+## Remote Work vs Salary
+![Remote Work vs Salary](graphics/Remote_work_salary_bar.png)
 
 In the comparative analysis between remote and hybrid or in-person work, it is noted that people who work remotely earn more, on average. However, when compared to other variables, the impact is small, around 5,000.
 
@@ -219,6 +240,9 @@ Australia      2.471771
 
 ### Correlation Analysis
 
+## Correlation Matrix
+![Correlation Matrix ](graphics/Corr_matrix_experience_skills_certifications.png)
+
 | Relationship | Correlation |
 |-------------|------------|
 | Salary vs Experience | **0.44** |
@@ -238,6 +262,9 @@ No significant impact (~145k across all)
 
 ### Job Role Analysis: Most Common Roles
 
+## Top Most Frequent Job Role 
+![Top Most Frequent Job Role](graphics/10_most_freq_job_role_bar.png)
+
 The most frequent job titles are studied, and it is noted that the 10 most frequent (appearing more than 20,000 times) are: 
 
 - Backend Developer  
@@ -249,6 +276,9 @@ The most frequent job titles are studied, and it is noted that the 10 most frequ
 As described in the bar graph.
 
 ### Highest Paying Roles
+
+## Top 10 Highest Pay Jobs 
+![Top 10 Highest Pay Jobs](graphics/Top_10_highest_pay_jobs_bar.png)
 
 Although the most frequent job titles are not necessarily the highest paying, the chart of the top 10 highest-paying jobs shows that the AI ​​Engineer position is the highest paid at **173,498**, followed by ML Engineer, Product Manager, Cloud Engineer, and DevOps Engineer (**149,959**). Notably, these figures are due to other factors beyond the scope of this analysis, such as company size, company type, location, etc. However, it is interesting to note that Backend Developer is the second highest-paid position.
 
