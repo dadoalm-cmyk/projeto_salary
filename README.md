@@ -66,8 +66,11 @@ The dataset includes:
 
 ###  Company Size vs Salary
 
+## Salary vs Company Size
+![Salary vs Company Size](graphics/Company_size_bar.png)
 
 Company size is the most impactful factor in salary. The graph  shows that Enterprise companies pay **169,616** compared to Startups **127,289**, a difference of 42k. This may be due to market experience or investments in trained teams or materials; these factors require further analysis for precise confirmation. However, large companies pay more than small companies and startups.
+
 
 - Enterprise: **169,616**
 - Startup: **127,289**
