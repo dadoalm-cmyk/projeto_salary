@@ -228,15 +228,18 @@ This reinforces the moderate (or strong in this case) relationship with experien
 
 In order to complement the study, we analyzed the relationship between certifications and location to assess the impact of one on the other and whether this relationship influenced salary. At EDA, it is observed that certification does not show considerable variation; that is, regardless of where the employee resides, they may have more or fewer certifications.
 
-**CERTIFICATION BY LOCATION**
-Germany        2.503493
-Netherlands    2.493906
-India          2.488371
-Canada         2.487145
-Singapore      2.485920
-Remote         2.485139
-UK             2.476110
-Australia      2.471771
+**Certification by Location**
+
+| Rank | Location     | Average Certification |
+|------|--------------|----------------------|
+| 1    | Germany      | 2.503493             |
+| 2    | Netherlands  | 2.493906             |
+| 3    | India        | 2.488371             |
+| 4    | Canada       | 2.487145             |
+| 5    | Singapore    | 2.485920             |
+| 6    | Remote       | 2.485139             |
+| 7    | UK           | 2.476110             |
+| 8    | Australia    | 2.471771             |
 
 - Range: **2.47 – 2.52**
 
