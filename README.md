@@ -339,7 +339,7 @@ salary = 146756.08 + (41971.55 * location_USA) + (27941.45 * location_Canada) + 
 ---
 
 <details>
-<summary> Feafture Importance </summary>
+<summary> Feature Importance </summary>
 
 ## Top 10 Most Important Features (Random Forest)
 
