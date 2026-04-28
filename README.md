@@ -2,15 +2,15 @@
 
 ##  Project Overview: Context and Objective
 
-This research aims to find the best fit through an equation that can predict salary according to given features, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
+This research aims **to find the best fit through an equation that can predict salary according to given features**, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
 
-This project uses Exploratory Data Analysis (EDA) and Machine Learning models to predict salaries based on multiple characteristics.
+This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** models to predict salaries based on multiple characteristics.
 
-Due to professional qualifications and length of service, many employees are looking for a salary consistent with their skills, whether to position themselves appropriately in the job market or to start over or request a promotion within companies. 
+Due to professional qualifications and length of service, many employees are looking for **a salary consistent with their skills**, whether to position themselves appropriately in the job market or to start over or request a promotion within companies. 
 
-For the business, it is extremely profitable to stimulate social well-being at work when employees are paid according to their skills and qualifications, in addition to increased productivity and a sense of belonging and teamwork being leveraged, which directly impacts the company's objectives and mission.
+For the business, it is extremely profitable **to stimulate social well-being at work when employees are paid according to their skills and qualifications,** in addition to increased productivity and a sense of belonging and teamwork being leveraged, which directly impacts the company's objectives and mission.
 
-The financial impact on the company depends on the current configuration of how employees are paid. To avoid confirmation bias or distorted value judgments, this analysis aims to find the most appropriate relationship for employee compensation, considering the characteristics that most impact such compensation.
+The financial impact on the company depends on the current configuration of how employees are paid. To avoid confirmation bias or distorted value judgments, this analysis aims **to find the most appropriate relationship for employee compensation, considering the characteristics that most impact such compensation.**
 
 It can be used as a reconfiguration of the payroll for all employees or a new vision of how to compensate new employees during their hiring. improving the career plan and people management planning with the HR team.
 
