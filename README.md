@@ -2,7 +2,19 @@
 
 ##  Project Overview
 
-This project aims to perform an Exploratory Data Analysis (EDA) and build Machine Learning models to predict salaries based on multiple features.
+
+This research aims to find the best fit through an equation that can predict salary according to given features, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
+
+This project uses Exploratory Data Analysis (EDA) and Machine Learning models to predict salaries based on multiple characteristics.
+
+Due to professional qualifications and length of service, many employees are looking for a salary consistent with their skills, whether to position themselves appropriately in the job market or to start over or request a promotion within companies. 
+
+For the business, it is extremely profitable to stimulate social well-being at work when employees are paid according to their skills and qualifications, in addition to increased productivity and a sense of belonging and teamwork being leveraged, which directly impacts the company's objectives and mission.
+
+The financial impact on the company depends on the current configuration of how employees are paid. To avoid confirmation bias or distorted value judgments, this analysis aims to find the most appropriate relationship for employee compensation, considering the characteristics that most impact such compensation.
+
+It can be used as a reconfiguration of the payroll for all employees or a new vision of how to compensate new employees during their hiring. improving the career plan and people management planning with the HR team.
+
 
 The dataset was obtained from Kaggle:  
 https://www.kaggle.com/datasets/algozee/employee-salary-prediction-dataset
@@ -380,5 +392,37 @@ The analysis shows that salary is primarily driven by market-related factors (lo
 5) Industry shows almost no impact on salary variation
 6) The dataset is highly structured with low noise
 7) Simpler models outperform complex ones due to strong linear relationships
+
+</details>
+
+---
+
+<details>
+<summary> reference </summary> 
+
+## Reference
+
+
+BECKER, Gary. Human capital: a theoretical and empirical analysis, with special reference to education. 3rd ed. Chicago: University of Chicago Press, 1993.
+
+MINCER, Jacob. Schooling, experience, and earnings. New York: National Bureau of Economic Research, 1974.
+
+ADAMS, John Stacey. Toward an understanding of inequality. In: BERKOWITZ, L. (ed.). Advances in experimental social psychology. New York: Academic Press, 1963. p. 267–299.
+
+VROOM, Victor H. Work and motivation. New York: Wiley, 1964.
+
+DECI, Edward L. Effects of externally mediated rewards on intrinsic motivation. Journal of Personality and Social Psychology, vol. 18, no. 1, p. 105–115, 1971.
+
+DECI, Edward L.; RYAN, Richard M. Intrinsic motivation and self-determination in human behavior. New York: Plenum, 1985.
+
+AKERLOF, George A. Labor contracts as partial gift exchange. The Quarterly Journal of Economics, vol. 97, no. 4, p. 543–569, 1982.
+
+AKERLOF, George A.; YELLEN, Janet L. The fair wage-effort hypothesis and unemployment. The Quarterly Journal of Economics, vol. 105, no. 2, p. 255–283, 1990.
+
+BRYNJOLFSSON, Erik; HITT, Lorin M.; KIM, Heekyung H. Strength in numbers: how does data-driven decision making affect firm performance? 2011. Available as working paper (MIT / NBER).
+
+BRYNJOLFSSON, Erik; MCAFEE, Andrew. Big data: the management revolution. Harvard Business Review, vol. 90, no. 10, p. 60–68, 2012.
+
+PORTER, Michael E. Competitive advantage: creating and sustaining superior performance. New York: Free Press, 1985.
 
 </details>
