@@ -353,6 +353,8 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 - Pipeline reprodutível com random_state fixo (42)
 
 ### Diagrama do Pipeline
+
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │              PIPELINE WITH DATA LEAKAGE PREVENTION              │
 └─────────────────────────────────────────────────────────────────┘
@@ -413,6 +415,7 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 │  R²(y_test,    │
 │     y_pred)    │
 └────────────────┘
+
 
 ### Reprodutibilidade
 Todos os experimentos são reproduzíveis graças a:
