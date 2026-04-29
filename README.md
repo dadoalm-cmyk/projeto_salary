@@ -354,7 +354,7 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 
 #### Diagrama do Pipeline
 
-```text
+
 ┌─────────────────────────────────────────────────────────────────┐
 │              PIPELINE WITH DATA LEAKAGE PREVENTION              │
 └─────────────────────────────────────────────────────────────────┘
