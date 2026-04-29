@@ -40,7 +40,15 @@ The dataset includes:
 - **location** – Country  
 - **remote_work** – Work type (Remote/Hybrid/On-site)  
 - **certifications** – Number of certifications  
-- **salary** – Target variable  
+- **salary** – Target variable
+
+The data does not present missing or any other errors, but it is focused on performing inferences or predictions through machine learning. During EDA or modeling, it is noticeable that we could analyze more precisely the relationship between location and educational level, certifications, and remote work. However, the objective is to focus on predicting salary and not on how location and education are related. Furthermore, the database does not present more information about the specific relationship between education and location to explore how location can influence education, which would affect employee salaries.
+
+Since datasets on Kaggle are used to support training or testing of other skills and programs, this data is subject to change and is consistent with the analysis proposed here.
+
+Regarding the feature industry, this could be removed from the dataset as it doesn't have a strong impact on salary prediction; however, this fact only became evident during the analysis. It's interesting to note that regardless of the type of industry the employee works in, it has little influence on salary. This is clearly due to the fact that IT jobs don't require very significant changes in company structures.
+
+
 </details>
 
 ---
