@@ -353,40 +353,67 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 - Pipeline reprodutível com random_state fixo (42)
 
 ### Diagrama do Pipeline
-┌─────────────┐
-│  Dados Brutos│
-│   (CSV)      │
-└──────┬───────┘
-       ↓
-┌─────────────────────┐
-│  One-Hot Encoding   │
-│  (drop_first=True)  │
-└──────┬──────────────┘
-       ↓
-┌─────────────────────┐
-│ Train/Test Split    │
-│   80% / 20%         │
-└──────┬──────────────┘
-       ↓
-    ┌──┴──┐
-    ↓     ↓
-┌───────┐ ┌────────────┐
-│Treino │ │   Teste    │
-│ 80%   │ │   20%      │
-└───┬───┘ └─────┬──────┘
-    ↓           │
-┌───────────────────────┐
-│  Treinamento dos      │
-│  Modelos:             │
-│  • Regressão Linear   │
-│  • Random Forest      │
-└───────┬───────────────┘
-        ↓
-┌───────────────────────┐
-│  Avaliação:           │
-│  • MAE                │
-│  • R²                 │
-└───────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│              PIPELINE WITH DATA LEAKAGE PREVENTION              │
+└─────────────────────────────────────────────────────────────────┘
+
+  STEP 1: LOAD DATA
+  ┌────────────────────────┐
+  │  df = pd.read_csv()    │
+  │  X = df.drop('salary') │
+  │  y = df['salary']      │
+  └───────────┬────────────┘
+              │
+              ▼
+  STEP 2: ENCODING (DOES NOT USE y)
+  ┌────────────────────────┐
+  │  X = pd.get_dummies(X) │
+  │  (Features only)       │
+  └───────────┬────────────┘
+              │
+              ▼
+  STEP 3: SPLIT (BEFORE ANY FIT)
+  ┌────────────────────────┐
+  │  X_train, X_test,      │
+  │  y_train, y_test       │
+  │  random_state=42       │
+  └───────────┬────────────┘
+              │
+      ┌───────┴───────┐
+      │               │
+      ▼               ▼
+┌──────────┐     ┌──────────┐
+│ X_train  │     │ X_test   │
+│ y_train  │     │ (SEALED) │
+└─────┬────┘     └─────┬────┘
+      │                │
+      ▼                │
+┌──────────────┐       │
+│ FIT MODELS   │       │
+│              │       │
+│ lr.fit()     │       │
+│ rf.fit()     │       │
+└──────┬───────┘       │
+       │               │
+       │    ┌──────────┘
+       │    │
+       ▼    ▼
+┌────────────────┐
+│  PREDICT       │
+│  y_pred =      │
+│  model.predict │
+│  (X_test)      │
+└───────┬────────┘
+        │
+        ▼
+┌────────────────┐
+│  METRICS       │
+│  MAE(y_test,   │
+│      y_pred)   │
+│  R²(y_test,    │
+│     y_pred)    │
+└────────────────┘
+
 ### Reprodutibilidade
 Todos os experimentos são reproduzíveis graças a:
 
