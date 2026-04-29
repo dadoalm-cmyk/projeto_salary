@@ -352,7 +352,7 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 - Nenhuma informação do conjunto de teste vaza para o treinamento.
 - Pipeline reprodutível com random_state fixo (42)
 
-### Diagrama do Pipeline
+#### Diagrama do Pipeline
 
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
@@ -534,6 +534,7 @@ DECI, Edward L. Effects of externally mediated rewards on intrinsic motivation. 
 VROOM, Victor H. Work and motivation. New York: Wiley, 1964.
 
 ADAMS, John Stacey. Toward an understanding of inequality. In: BERKOWITZ, L. (ed.). Advances in experimental social psychology. New York: Academic Press, 1963. p. 267–299.
+</details>
 
 
 </details>
