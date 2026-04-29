@@ -314,6 +314,86 @@ No strong relationship between:
 
 According to the objective of this analysis, the data presents excellent qualities and relationships for creating a linear regression model. We begin with the regression model and then use the Random Forest model to confirm or suggest another model that better fits the data.
 
+
+### Metodologia - Pipeline de ML
+#### Pré-processamento
+1) Encoding: One-Hot Encoding (OHE) com drop_first=True
+   - Dados categóricos nominais sem ordem hierárquica.
+   - drop_first evita multicolinearidade perfeita na regressão linear.
+  
+2) SEM escalonamento (StandardScaler/MinMaxScaler):
+   - Regressão Linear em OLS é invariante à escala dos coeficientes.
+   - Random Forest é baseado em decisões por partição, também invariante.
+   - Decisão consciente para manter interpretabilidade dos coeficientes.
+
+3)  Validação hold-out (não cross-validation):
+   - Dataset grande o suficiente (assumindo > 10k amostras).
+   - Simplicidade para protótipo inicial.
+   - Próxima iteração: implementar k-fold (k=5) para mais robustez.
+
+4) Métricas escolhidas:
+   - MAE (interpretável na unidade original: salário em $)
+   - R² (proporção de variância explicada)
+
+#### Modelos Utilizados
+
+Regressão Linear	(Parâmetros padrão (OLS)), pois a	Baseline é interpretável mostrando  relações lineares entre features e salário.
+
+Random Forest	(n_estimators=100, random_state=42)	captura relações não-lineares e interações entre features além de fornecer importância das variáveis.
+
+#### Métricas de Avaliação
+MAE (Mean Absolute Error) : Erro médio absoluto em unidades originais (dólares).
+
+R² (Coeficiente de Determinação) : Proporção da variância explicada pelo modelo.
+
+#### Medidas Tomadas Contra Data Leakage
+- Divisão treino/teste ANTES de qualquer transformação.
+- Random Forest usa apenas dados de treino para calcular feature importance.
+- Nenhuma informação do conjunto de teste vaza para o treinamento.
+- Pipeline reprodutível com random_state fixo (42)
+
+### Diagrama do Pipeline
+┌─────────────┐
+│  Dados Brutos│
+│   (CSV)      │
+└──────┬───────┘
+       ↓
+┌─────────────────────┐
+│  One-Hot Encoding   │
+│  (drop_first=True)  │
+└──────┬──────────────┘
+       ↓
+┌─────────────────────┐
+│ Train/Test Split    │
+│   80% / 20%         │
+└──────┬──────────────┘
+       ↓
+    ┌──┴──┐
+    ↓     ↓
+┌───────┐ ┌────────────┐
+│Treino │ │   Teste    │
+│ 80%   │ │   20%      │
+└───┬───┘ └─────┬──────┘
+    ↓           │
+┌───────────────────────┐
+│  Treinamento dos      │
+│  Modelos:             │
+│  • Regressão Linear   │
+│  • Random Forest      │
+└───────┬───────────────┘
+        ↓
+┌───────────────────────┐
+│  Avaliação:           │
+│  • MAE                │
+│  • R²                 │
+└───────────────────────┘
+### Reprodutibilidade
+Todos os experimentos são reproduzíveis graças a:
+
+Random seeds fixos: random_state=42 em todas as operações aleatórias.
+Pipeline determinístico: Mesmas transformações aplicadas a cada execução.
+Versões das bibliotecas especificadas no requirements.txt.
+
 ### Model 1: Linear Regression
 
 - MAE: **5,436**
@@ -340,7 +420,7 @@ According to the objective of this analysis, the data presents excellent qualiti
 
 ---
 
-### 🔹 Key Insight
+###  Key Insight
 
 -> Linear Regression performed slightly better  
 
