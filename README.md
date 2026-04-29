@@ -415,7 +415,7 @@ R² (Coeficiente de Determinação) : Proporção da variância explicada pelo m
 │  R²(y_test,    │
 │     y_pred)    │
 └────────────────┘
-text
+```text
 
 ### Reprodutibilidade
 Todos os experimentos são reproduzíveis graças a:
