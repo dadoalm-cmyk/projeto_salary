@@ -10,7 +10,7 @@ The financial impact on the company depends on the current configuration of how 
 
 It can be used as a reconfiguration of the payroll for all employees or a new vision of how to compensate new employees during their hiring. improving the career plan and people management planning with the HR team.
 
-## Business problem and project objective
+## Business Problem and Project Objective
 
 ### What is the business problem?
 
