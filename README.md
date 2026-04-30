@@ -12,9 +12,29 @@ It can be used as a reconfiguration of the payroll for all employees or a new vi
 
 ## Business problem and project objective
 
+### What is the business problem?
+
+????
+
+### What is the context?
+
+???
+
+### Which are the project objectives?
+
 This research aims **to find the best fit through an equation that can predict salary according to given features**, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
 
 This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** models to predict salaries based on multiple characteristics.
+
+### Which are the project benefits?
+
+???????
+
+### Conclusion
+
+??????
+
+
 
 ---
 
