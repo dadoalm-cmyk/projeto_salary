@@ -496,6 +496,8 @@ salary = 146756.08 + (41971.55 * location_USA) + (27941.45 * location_Canada) + 
 The model identified experience, location, and company size as the most important features for predicting salary.
 This confirms the insights obtained during the exploratory data analysis.
 
+Note: The evidenced features presented here are intended only to highlight the most impactful features obtained through random forest analysis, which aligns with the features obtained through linear regression. However, as shown, random forest analysis does not represent the best approximation of the prediction.
+
 </details>
 
 ---
