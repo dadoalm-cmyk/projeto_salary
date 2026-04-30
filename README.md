@@ -1,10 +1,6 @@
 #  Salary Prediction
 
-##  Description and Context
-
-This research aims **to find the best fit through an equation that can predict salary according to given features**, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
-
-This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** models to predict salaries based on multiple characteristics.
+## Description and Context 
 
 Due to professional qualifications and length of service, many employees are looking for **a salary consistent with their skills**, whether to position themselves appropriately in the job market or to start over or request a promotion within companies. 
 
@@ -14,6 +10,14 @@ The financial impact on the company depends on the current configuration of how 
 
 It can be used as a reconfiguration of the payroll for all employees or a new vision of how to compensate new employees during their hiring. improving the career plan and people management planning with the HR team.
 
+## Business problem and project objective
+
+This research aims **to find the best fit through an equation that can predict salary according to given features**, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
+
+This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** models to predict salaries based on multiple characteristics.
+
+<details>
+<summary> Project Overview: Data </summary>
 
 ##  Project Overview: Data
 
@@ -22,6 +26,9 @@ https://www.kaggle.com/datasets/algozee/employee-salary-prediction-dataset
 
 - **250,000 rows**
 - **10 features**
+</details>
+
+---
 
 <details>
 <summary> Dataset Description</summary>
