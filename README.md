@@ -54,7 +54,7 @@ Regarding the feature industry, this could be removed from the dataset as it doe
 ---
 
 <details>
-<summary> Data Exploration</summary>
+<summary> Technologies and tools </summary>
 ---
 
  
