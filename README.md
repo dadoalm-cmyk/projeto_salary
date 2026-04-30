@@ -16,18 +16,6 @@ This research aims **to find the best fit through an equation that can predict s
 
 This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** models to predict salaries based on multiple characteristics.
 
-<details>
-<summary> Project Overview: Data </summary>
-
-##  Project Overview: Data
-
-The dataset was obtained from Kaggle:  
-https://www.kaggle.com/datasets/algozee/employee-salary-prediction-dataset
-
-- **250,000 rows**
-- **10 features**
-</details>
-
 ---
 
 <details>
@@ -35,6 +23,12 @@ https://www.kaggle.com/datasets/algozee/employee-salary-prediction-dataset
 
 
 ##  Dataset Description
+
+The dataset was obtained from Kaggle:  
+https://www.kaggle.com/datasets/algozee/employee-salary-prediction-dataset
+
+- **250,000 rows**
+- **10 features**
 
 The dataset includes:
 
