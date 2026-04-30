@@ -1,4 +1,4 @@
-#  Salary Prediction & Data Analysis Project
+#  Salary Prediction
 
 ##  Description and Context
 
