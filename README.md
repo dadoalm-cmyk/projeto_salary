@@ -1,6 +1,6 @@
 #  Salary Prediction & Data Analysis Project
 
-##  Project Overview: Context and Objective
+##  Description and Context
 
 This research aims **to find the best fit through an equation that can predict salary according to given features**, with the goal of building a model that can be used to predict the salary of a new employee or groups of employees in line with the most impactful characteristics.
 
@@ -55,7 +55,11 @@ Regarding the feature industry, this could be removed from the dataset as it doe
 
 <details>
 <summary> Data Exploration</summary>
+---
 
+ 
+##  Technologies and tools
+- The technologies and tools used were Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Plotly), Git and Github (version control), machine learning classification algorithms, statistics and Visual Studio Code (project development environment).
 
 ##  Data Exploration
 
