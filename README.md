@@ -30,6 +30,9 @@ This project uses **Exploratory Data Analysis (EDA)** and **Machine Learning** m
 
 ???????
 
+
+requerem mais desenvovimentos com gráficos 
+
 ### Conclusion
 
 ??????
