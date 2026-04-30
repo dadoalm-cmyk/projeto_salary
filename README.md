@@ -63,7 +63,7 @@ The dataset includes:
 - **certifications** – Number of certifications  
 - **salary** – Target variable
 
-The data does not present missing or any other errors, but it is focused on performing inferences or predictions through machine learning. During EDA or modeling, it is noticeable that we could analyze more precisely the relationship between location and educational level, certifications, and remote work. However, the objective is to focus on predicting salary and not on how location and education are related. Furthermore, the database does not present more information about the specific relationship between education and location to explore how location can influence education, which would affect employee salaries.
+The data does not present missing or any other errors, but it is focused on performing predictions through machine learning. During EDA or modeling, it is noticeable that we could analyze more precisely the relationship between location and educational level, certifications, and remote work. However, the objective is to focus on predicting salary and not on how location and education are related. Furthermore, the database does not present more information about the specific relationship between education and location to explore how location can influence education, which would affect employee salaries.
 
 Since datasets on Kaggle are used to support training or testing of other skills and programs, this data is subject to change and is consistent with the analysis proposed here.
 
